@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test3"
+  annotations:
+    "humanitec.com/orgId": 
+    "humanitec.com/appId": "test3"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
